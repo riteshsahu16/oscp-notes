@@ -25,9 +25,9 @@
 - Basic Linux commands
     * **man** Command : provide documentation
         - eg.
-            ``` $ man ls ```
+            - ``` $ man ls ```
         - Perform keyword search with -k option
-            ``` $ man -k passwd ```
+            - ``` $ man -k passwd ```
         - Narrow search with regular expression
             - ``` $ man -k '^passwd$' ```
             - ``` $ man 5 passwd ```
