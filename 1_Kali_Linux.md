@@ -1,11 +1,11 @@
 
 ## Booting up Kali linux
-    > passwd  : change password
+     passwd  : change password
       ``` 
       $ passwd
        ``` 
     
-    >  whoami : get user
+     whoami : get user
     ``` $ whoami ```
 
 ## Kali Menu
