@@ -1,9 +1,7 @@
 
 ## Booting up Kali linux
 passwd  : change password
-      ``` 
-      $ passwd
-       ``` 
+      ``` $ passwd  ``` 
     
 whoami : get user
     ``` 
