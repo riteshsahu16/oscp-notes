@@ -4,8 +4,7 @@
     - ``` $ passwd  ``` 
     
 - **whoami** : get user
-    - 
-    ```$ whoami```
+    - ```$ whoami```
 
 ## Kali Menu
 
@@ -30,17 +29,16 @@
         - Perform keyword search with -k option
             ``` $ man -k passwd
         - Narrow search with regular expression
-            ``` $ man -k '^passwd$' ```
-            ``` $ man 5 passwd ```
+            - ``` $ man -k '^passwd$' ```
+            - ``` $ man 5 passwd ```
 
     * **apropos** : helpful for finding commands based on description
-        - eg.
-            ``` $ apropose partition ```
+        - ``` $ apropose partition ```
     
     * **ls** : Listing files 
-        Options : -a : list all, -1 : display each file on single line
-        ``` $ ls /Downloads -a1
-            $ ls /Documents/*.conf ```
+        - Options : -a : list all, -1 : display each file on single line
+            - ``` $ ls /Downloads -a1 ```
+            - ``` $ ls /Documents/*.conf ```
     
     * Moving Around
         - **cd** : change directory
@@ -48,62 +46,62 @@
         - **pwd** : present working directory
             ``` $ pwd ```
         - **cd** ~ : return to home directory
-            ``` $ cd ~ 
-                $ pwd ```
+            - ``` $ cd ~ ``` 
+            - ``` $ pwd ```
     
     * Creating Directories
         - **mkdir** : creates folder
-            ``` $ mkdir Notes ```
+            - ``` $ mkdir Notes ```
         - when using spaces in between name 
-            ``` $ mkdir module one 
-                $ rm -rf module/ one/ ```
+            - ``` $ mkdir module one ```
+            - ``` $ rm -rf module/ one/ ```
         - **mkdir -p** : make multiple directories
-            ``` $ mkdir -r test/{recon, exploit, report}
+            - ``` $ mkdir -r test/{recon, exploit, report} ```
     
 - Finding files 
     - **which** : searches through the directorie, If a match is found, which returns   the full path to the file
-        ``` $ which $PATH ```
+        - ``` $ which $PATH ```
 
     - **locate** : searches in in-built database locate.db. 
-    ``` $ sudo updatedb ```  
-    ``` $ locate sbd ```
+        - ``` $ sudo updatedb ```  
+        - ``` $ locate sbd ```
 
     - **find** : search by file name, age, size, owner, file type, timestamp, permissions, and more
-    ``` $ sudo find / -name sbd* ```
+        - ``` $ sudo find / -name sbd* ```
         
 ## Managing Services
 - **systemctl** 
     * start a service 
-        ``` $ sudo systemctl start ssh ```
+        - ``` $ sudo systemctl start ssh ```
     * to verfify service is running
-        ``` $ sudo ss -antlp | grep sshd ``` 
+        - ``` $ sudo ss -antlp | grep sshd ``` 
     * to make service automatically start
-        ``` $ sudo systemctl enable ssh ```
+        - ``` $ sudo systemctl enable ssh ```
     * list all available services
-        ``` $ systemctl list-unit-files ```    
+        - ``` $ systemctl list-unit-files ```    
             
 # Searching, Installing & Removing Tools
 - **apt**
     - Update APT Repository
-        ``` $ sudo apt update ```
+        - ``` $ sudo apt update ```
     - Upgrade distribution
-        ``` $ sudo apt dist-upgrade ```
+        - ``` $ sudo apt dist-upgrade ```
     - Upgrade particular package
-        ``` $ sudo apt upgrade metasploit-framework ```
+        - ``` $ sudo apt upgrade metasploit-framework ```
     - Searching for package in apt-cache [searches for keyword in package-description]
-        ``` $ apt-cache search pure-ftpd ```
+        - ``` $ apt-cache search pure-ftpd ```
     - Show package description
-        ``` $ apt show resource-agents ```
+        - ``` $ apt show resource-agents ```
     - Installing a package
-        ``` $ sudo apt install pure-ftpd ```
+        - ``` $ sudo apt install pure-ftpd ```
     - Remove package but keep configuration file
-        ``` $ sudo apt remove pure-ftpd ```
+        - ``` $ sudo apt remove pure-ftpd ```
     - Remove package completely
-        ``` $ sudo apt remove --purge pure-ftpd ```
+        - ``` $ sudo apt remove --purge pure-ftpd ```
 
 - **dpkg** 
     - when package is already downloaded or obtained in some other way
-        ``` $ sudo dpkg -i man-db_amd64.deb ```  
+        - ``` $ sudo dpkg -i man-db_amd64.deb ```  
 
 
         
