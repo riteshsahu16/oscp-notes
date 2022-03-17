@@ -6,7 +6,9 @@
        ``` 
     
      whoami : get user
-    ``` $ whoami ```
+    ``` 
+        $ whoami
+     ```
 
 ## Kali Menu
 
