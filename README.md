@@ -77,6 +77,7 @@
   - Persistent Bash Customization
 
 ## Practical Tools
+- 
 ## Bash Scripting
 
 ## Passive Information Gathering
