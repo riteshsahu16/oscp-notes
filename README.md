@@ -27,16 +27,14 @@
     - Control flow 
 
 ## Getting Comfortable with kali linux
-  - [] Booting up Kali
-  - [] Kali Documentation
-  - [] Finding your way around kali
+  - [x] Booting up Kali
+  - [x] Kali Documentation
+  - [x] Finding your way around kali
     - Linux Filesystem
     - Basic Linux Commands
     - Finding Files
-  - [] Managing Kali Services
-    - SSH service
-    - HTTP service
-  - [] Searching, Installing & Removing Tools
+  - [x] Managing Kali Services
+  - [x] Searching, Installing & Removing Tools
     - apt
     - dpkg
 
