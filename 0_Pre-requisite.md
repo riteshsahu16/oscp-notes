@@ -2,7 +2,7 @@
 ## Terminologies
 ## Networking
 ### Introduction
-- Protocols
+- Protocols : set of rules to communicate
 - TCP/IP Stack
     - TCP/IP Family
         - Application Layer : FTP, SMTP, DNS, User-Processes
@@ -10,14 +10,24 @@
         - Network Layer : IP, ICMP, ARP, RARP
         - Data Link & Hardware Layer
     - Encapsulation : Header - Payload
-    - Port Number
+    - Port Number : 
         - Well Known ports : 0-1023
         - SMTP (25) FTP(21) SSH (22) Telnet(23) POP3(110) RDP(3389) NetBios(137, 138, 139) HTTP(80) HTTPs(443)
+        
     - To check listening ports and the current (TCP Connection)
         - Windows ``` netstat -ano ```
         - Linux ``` netstat -tunp ```
+    - Session : Store user information on server-side.
+    - Cookies : Store user info. on client-side
+    - Query Strings : one-time info passing mechanism.
+    
 ### IPv4 Addressing
-- Representation : Octate
+    - Public IP
+    - Private
+    - Static IP vs Dynamic IP
+- Representation : Octate (8bit values * 4 = 32)
+    - Range 0 to 2^8
+    - 123.41.53.64
 - IPv4 Header
     - VER: Version of IP protocol in use
     - HLEN: Length of Header
