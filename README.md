@@ -24,7 +24,8 @@
   - [] Windows Command line & Scripting
     - Environment Variables
     - Redirectors & Special Characters
-    - Control flow 
+    - Control flow
+  - [] Regular Expression 
 
 ## Getting Comfortable with kali linux
   - [x] Booting up Kali
@@ -77,14 +78,75 @@
   - Persistent Bash Customization
 
 ## Practical Tools
-- 
+- [] Netcat
+  - Connecting to TCP/UDP port
+  - Listening on TCP/UDP port
+  - Transfering files with Netcat
+  - Remote Administration with Netcat
+- [] Socat
+  - Netcat vs Socat
+  - Socat File Transfers
+  - Socat Reverse Shells
+  - Socat Encrypted Bind Shells
+- [] Powershell & Powercat
+  - Powershell file transfers
+  - Powershell Reverse shell
+  - Powershell Bind Shells
+  - Powercat
+  - Powercat File Transfers
+  - Powercat Reverse shell
+  - Powercat Bind Shells
+  - Powercat Stand-Alone Payloads
+- [] Wireshark
+  - Wireshark Basics
+  - launching wireshark
+  - Capture filters
+  - Display filters
+  - Following TCP Streams
+- [] Tcpdump
+  - Filtering traffic
+  - Advanced Header Filtering
+  
 ## Bash Scripting
 
 ## Passive Information Gathering
+
 ## Active Information Gathering
+
 ## Vulnerability Scanning
 ## Web Application Attacks
 ## Buffer Overflows [Windows + Linux]
+- [] Intro to x86
+  - Program memory
+  - CPU registers
+- [] Buffer Overflow Walkthrough
+  - Sample Vulnerable Code
+  - Introducing Immunity Debugger
+  - Navigating Code
+  - Overflowing the buffer
+- [] Windows Buffer Overflow
+  - Discovering Vulnerability
+    - Fuzzing the http protocol
+  - Win32 Buffer overflow Exploitation
+    - DEP, ASLR and CFG
+    - Replicating the Crash
+    - Controlling EIP
+    - Locating space for our Shellcode
+    - Checking for bad characters
+    - Redirecting the execution flow
+    - Finding a return address
+    - Generating shell code with Metasploit
+    - Getting a shell
+    - Improving the exploit
+- [] Linux Buffer Overflow
+  - DEP, ASLR and Canaries
+    - Replicating the crash
+    - Controlling EIP
+    - Locating space for shellcode
+    - Checking for bad characters
+    - Finding a return address
+    - Getting a shell
+
 ## Client Side attacks 
 ## Exploits [locating + Fixing]
 ## File Transfers
