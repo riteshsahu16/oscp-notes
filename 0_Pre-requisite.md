@@ -139,5 +139,5 @@
    
 ### Network Attacks
 1. TCP Session Hijacking
-2. ARP Poisoning - MITM Attack
+2. ARP Poisoning/ ARP spoofing/  - MITM Attack
 3. Mac-Flooding
