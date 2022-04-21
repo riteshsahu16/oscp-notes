@@ -38,7 +38,7 @@
     - Source IP : IP address of sender
     - Destination IP : IP address of receiver
     - Identification, flags, fragment offset : Used for handling fragmentation
-    - Options : for router support (eg. Source Routing :- Source Route Attack)
+    - Options : for router support 
     - Header Checksum : To verify datagram, if does not match, the packet is discarded.
 - Reserved IP-Address
     • 127.0.0.0 – 127.255.255.255 representing the local
@@ -48,7 +48,7 @@
     - https://datatracker.ietf.org/doc/html/rfc5735
 - Subnetting
     - CIDR
-- Examples
+- Examples  
 ### IPv6 Addressing
 - Representation
 - IPv4 Header

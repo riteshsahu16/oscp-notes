@@ -55,6 +55,7 @@
     - ``` $ cat error.txt | wc -m > count.txt```
     - ``` $ cat count.txt```
 ## Text Searching & Manipulation
+    - 
 ## Editors
 ## Comparing Files
 ## Managing Processes
